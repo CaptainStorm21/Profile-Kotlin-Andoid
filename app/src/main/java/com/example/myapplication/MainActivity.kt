@@ -64,10 +64,9 @@ fun CreateBizCard() {
             border = BorderStroke(4.dp, Color.Red),
             colors = CardDefaults.cardColors(containerColor = Yellow)
         ) {Column(
-            modifier = Modifier.height(400.dp).fillMaxWidth().padding(vertical = 120.dp),
+            modifier = Modifier.height(780.dp).background(Color.Green).fillMaxWidth().padding(vertical = 120.dp),
             verticalArrangement = Arrangement.Top,
             horizontalAlignment = Alignment.CenterHorizontally,
-
         ){
                 Surface(
                     modifier = Modifier
